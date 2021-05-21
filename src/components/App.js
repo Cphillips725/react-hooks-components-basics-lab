@@ -16,14 +16,22 @@ function Home() {
   );
 }
 
-function App() {
+function About() {
   return (
-    <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+    <div id="about">
+      <h2>About</h2>
     </div>
   );
 }
 
-export default App;
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+    </div>
+  );
+}
+
+export default App;yq
